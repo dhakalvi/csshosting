@@ -47,4 +47,5 @@ body {
         }
         .note p {
             line-height: 1.2; /* Reduced line height */
+        color:blue;
         }
