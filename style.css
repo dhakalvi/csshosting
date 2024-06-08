@@ -1,0 +1,50 @@
+body {
+            margin: 0;
+            padding: 20mm;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 100%;
+            overflow: hidden; /* Clear floats */
+        }
+        .header p, .sub-header p, .note p {
+            margin-top: 0pt;
+            margin-bottom: 0pt;
+            text-align: center;
+            line-height: 1.2; /* Reduced line height */
+        }
+        .header p {
+            font-size: 14pt;
+        }
+        .sub-header p {
+            font-size: 13pt;
+        }
+        .student-details p {
+            margin-top: 0pt;
+            margin-bottom: 0pt;
+            line-height: 1.2; /* Reduced line height */
+        }
+        .left-div, .right-div {
+            float: left;
+            width: 48%; /* Adjust as needed */
+            margin-right: 2%; /* Space between the divs */
+            box-sizing: border-box; /* Include padding and border in the width */
+        }
+        .right-div {
+            margin-right: 0; /* Remove the margin on the last div */
+        }
+        .left-div p, .right-div p {
+            line-height: 1; /* Reduced line height */
+        }
+        .table th {
+            background-color: #f2f2f2;
+        }
+        .table td, .table th {
+            border: 0.75pt solid #000000;
+            padding: 5.03pt;
+            vertical-align: top;
+        }
+        .note p {
+            line-height: 1.2; /* Reduced line height */
+        }
